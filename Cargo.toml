@@ -27,4 +27,5 @@ winapi = { version = '0.3', features = ['fileapi', 'minwindef', 'winbase'] }
 redox_syscall = "0.1"
 
 [dev-dependencies]
-tempfile = "3"
+tempfile = { git = "https://github.com/rjloura/tempfile.git", branch = "rui" }
+#tempfile = "3"
